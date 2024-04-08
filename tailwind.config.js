@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'main': "url('../images/main-bg.jpg')",
+        
+      },
+      colors: {
+        'main-pink': '#ce6f6f',
+      },
+      fontFamily: {
+        'ubuntu': ["Ubuntu"],
+      }
+    },
   },
   plugins: [],
 }

@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-display: swap;
+        font-weight: 400;
+        src: url("../font/Ubuntu-Regular.ttf") format('ttf');
+      }
+}
+
+
