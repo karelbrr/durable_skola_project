@@ -11,6 +11,7 @@ export default {
         'second': "url('../images/second-bg.jpeg')",
         'third': "url('../images/third-bg.jpeg')",
         'fourth': "url('../images/fourth-bg.jpeg')",
+        'fifth': "url('../images/fifth-bg.jpeg')",
       },
       colors: {
         'main-pink': '#ce6f6f',
