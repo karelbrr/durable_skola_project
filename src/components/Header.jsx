@@ -20,7 +20,7 @@ const Header = () => {
           Learn More
         </button>
       </div>
-      <img src="images\tilt 2.png" alt="" className="relative z-10 w-full"/>
+      <img src="images\tilt 2.png" alt="" className="relative z-10 w-full" />
     </section>
   );
 };

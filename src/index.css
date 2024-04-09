@@ -12,4 +12,14 @@
       }
 }
 
+@layer components {
+  .card-heading {
+    @apply font-bold text-3xl
+  }
+
+  .card-text {
+    @apply text-xl opacity-75 font-light
+  }
+}
+
 
