@@ -13,7 +13,7 @@ const Header = () => {
           Elevate Your Online <br /> Presence
         </h2>
         <p className="text-2xl my-10">
-          Unlock the full potential of your brand with Prague's leading social{" "}
+          Unlock the full potential of your brand with Prague s leading social
           <br /> media marketing experts.
         </p>
         <button className=" py-3 rounded-lg px-4 bg-main-pink text-2xl hover:opacity-50">
