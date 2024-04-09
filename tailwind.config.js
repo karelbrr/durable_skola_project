@@ -10,7 +10,7 @@ export default {
         'main': "url('../images/main-bg.jpg')",
         'second': "url('../images/second-bg.jpeg')",
         'third': "url('../images/third-bg.jpeg')",
-
+        'fourth': "url('../images/fourth-bg.jpeg')",
       },
       colors: {
         'main-pink': '#ce6f6f',
