@@ -20,6 +20,10 @@
   .card-text {
     @apply text-xl opacity-75 font-light
   }
+
+  .slider-card {
+    @apply font-bold text-3xl
+  }
 }
 
 
