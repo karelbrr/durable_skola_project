@@ -21,7 +21,7 @@ const AboutUs = () => {
         <p className="text-center pt-20 text-xl font-light">
           Enhance your social media marketing strategy with Modea in Prague.
         </p>
-        <button className="bg-second-pink p-3 rounded block m-auto text-xl font-light mt-7">Get Started</button>
+        <button className="bg-second-pink p-3 rounded block m-auto text-xl font-light mt-7 hover:opacity-70">Get Started</button>
       </div>
     </section>
   );
