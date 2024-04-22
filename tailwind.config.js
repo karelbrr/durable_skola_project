@@ -16,6 +16,8 @@ export default {
       colors: {
         'main-pink': '#ce6f6f',
         'second-pink': '#e8b3af',
+        'ham-pink': '#e8b3b0',
+
 
       },
       fontFamily: {

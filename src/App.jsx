@@ -5,16 +5,15 @@ import Header from "./components/Header.jsx";
 import Introduction from "./components/Introduction.jsx";
 import ReviewSlider from "./components/ReviewSlider.jsx";
 
-
 const App = () => {
   return (
     <div>
       <Header />
       <Introduction />
       <Cards />
-      <ReviewSlider/>
-      <AboutUs/>
-      <Footer/>
+      <ReviewSlider />
+      <AboutUs />
+      <Footer />
     </div>
   );
 };

@@ -24,6 +24,10 @@
   .slider-card {
     @apply font-bold text-3xl
   }
+
+  .call-us-btn {
+    @apply  p-2 rounded-lg px-4 bg-main-pink text-2xl hover:opacity-70 lg:block transition
+  }
 }
 
 

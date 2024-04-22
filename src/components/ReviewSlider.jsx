@@ -14,11 +14,11 @@ const ReviewSlider = () => {
     autoplaySpeed: 3000,
   };
   return (
-    <section className="h-[800px] ">
-      <h2 className="font-bold text-5xl pt-32 pl-24">Our customers love us</h2>
-      <Slider {...settings} className="w-2/3 ml-48 mt-10">
-        <div>
-          <img src="images/guy-1.png" alt="" className="w-28"/>
+    <section className="h-[870px] lg:h-[800px] ">
+      <h2 className="font-bold pl-5 pb-20 pt-10 text-3xl lg:text-5xl lg:pt-32 lg:pl-24 lg:pb-0">Our customers love us</h2>
+      <Slider {...settings} className="w-5/6 m-auto  lg:w-2/3 lg:ml-48 lg:mt-20">
+        <div className="">
+          <img src="images/guy-1.png" alt="" className="w-28" />
           <p className="slider-card">
             Modeas Social Media Marketing services are outstanding! They helped
             boost my online presence and engagement significantly. The team was
@@ -28,7 +28,7 @@ const ReviewSlider = () => {
           <h3 className="text-2xl opacity-50 font-light pt-4">- John</h3>
         </div>
         <div>
-          <img src="images/guy-1.png" alt="" className="w-28"/>
+          <img src="images/guy-1.png" alt="" className="w-28" />
           <p className="slider-card">
             Modea is a game-changer in social media marketing! Their teams
             creativity and expertise helped boost my online presence
@@ -39,7 +39,7 @@ const ReviewSlider = () => {
           <h3 className="text-2xl opacity-50 font-light pt-4">- Alex</h3>
         </div>
         <div>
-        <img src="images/guy-2.png" alt="" className="w-28"/>
+          <img src="images/guy-2.png" alt="" className="w-28" />
           <p className="slider-card">
             Modeas Social Media Marketing services in Prague exceeded my
             expectations! Their teams creativity and expertise helped elevate my
