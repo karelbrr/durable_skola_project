@@ -14,9 +14,14 @@ const ReviewSlider = () => {
     autoplaySpeed: 3000,
   };
   return (
-    <section className="h-[870px] lg:h-[800px] ">
-      <h2 className="font-bold pl-5 pb-20 pt-10 text-3xl lg:text-5xl lg:pt-32 lg:pl-24 lg:pb-0">Our customers love us</h2>
-      <Slider {...settings} className="w-5/6 m-auto  lg:w-2/3 lg:ml-48 lg:mt-20">
+    <section className="h-[890px] lg:h-[800px] ">
+      <h2 className="font-bold pl-5 pb-20 pt-10 text-3xl lg:text-5xl lg:pt-32 lg:pl-24 lg:pb-0">
+        Our customers love us
+      </h2>
+      <Slider
+        {...settings}
+        className="w-5/6 m-auto  lg:w-2/3 lg:ml-48 lg:mt-20"
+      >
         <div className="">
           <img src="images/guy-1.png" alt="" className="w-28" />
           <p className="slider-card">

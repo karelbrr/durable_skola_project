@@ -10,7 +10,6 @@ const Header = () => {
     const handleResize = () => {
       if (window.innerWidth > 1020 && isPopupOpen) {
         togglePopup();
-        console.log("test");
       }
     };
 
